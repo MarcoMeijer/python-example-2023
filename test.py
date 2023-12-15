@@ -40,7 +40,7 @@ class TestVec2(unittest.TestCase):
     def test_divide_zero(self):
         a = Vec2(15, -6)
         with self.assertRaises(ValueError):
-            a.divide(0)
+            a.divide(1)
 
 class TestPerson(unittest.TestCase):
     def test_fetch(self):
